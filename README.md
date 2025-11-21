@@ -11,7 +11,7 @@ npm run dev
 
 Notes:
 - Tailwind is configured and its directives are imported from `src/index.css`.
-- The root React component is the default export from `index.jsx` (kept at project root). The Vite entry mounts it from `src/main.jsx`.
+- The root React component is in `src/App.jsx`. The Vite entry mounts it from `src/main.jsx`.
  
 Environment / API key
 - Create a `.env` file in the project root with your TMDB API key. You can copy the example provided:
